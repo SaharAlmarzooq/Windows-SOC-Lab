@@ -56,6 +56,8 @@ Reviewed Event ID 11 and collected:
 
 Verified that PowerShell created the monitored file successfully.
 
+Confirmed that the generated Event ID 11 matched the expected FileCreate monitoring rule.
+
 ---
 
 ## Documentation
@@ -68,9 +70,21 @@ Recorded all collected evidence and investigation findings.
 
 # Screenshots
 
-- Screenshot 01 — FileCreate Configuration
-- Screenshot 02 — Create TestScript.ps1
-- Screenshot 03 — Event ID 11 (File Create)
+### Screenshot 01 — FileCreate Configuration
+
+![FileCreate Configuration](../Screenshots/Session-05/01-FileCreate-Configuration.png)
+
+---
+
+### Screenshot 02 — Create TestScript.ps1
+
+![Create TestScript](../Screenshots/Session-05/02-Create-TestScript-PS1.png)
+
+---
+
+### Screenshot 03 — Event ID 11 (File Create)
+
+![Event ID 11](../Screenshots/Session-05/03-EventID11-FileCreate-PS1.png)
 
 ---
 
