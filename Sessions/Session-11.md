@@ -136,6 +136,8 @@ Final assessment:
 
 The collected evidence supports legitimate administrative activity.
 
+The investigation confirmed that the observed activity was intentionally generated within the Windows SOC Lab for validation purposes and did not require incident escalation.
+
 ---
 
 # Investigation Result
@@ -150,13 +152,57 @@ PowerShell executed successfully, created a script, and established an outbound 
 
 # Screenshots
 
-- Screenshot 01 — Launch PowerShell
-- Screenshot 02 — Create Investigation.ps1
-- Screenshot 03 — Event ID 1 (Process Create)
-- Screenshot 04 — Event ID 11 (File Create)
-- Screenshot 05 — Event ID 3 (Network Connection)
-- Screenshot 06 — VirusTotal IP Reputation
-- Screenshot 07 — No Registry Activity Found
+### Screenshot 01 — Launch PowerShell
+
+![Launch PowerShell](../Screenshots/Session-11/01-Launch-PowerShell.png)
+
+---
+
+### Screenshot 02 — Create Investigation.ps1
+
+![Create Investigation.ps1](../Screenshots/Session-11/02-Create-InvestigationScript.png)
+
+---
+
+### Screenshot 03 — Generate Network Connection
+
+![Generate Network Connection](../Screenshots/Session-11/03-Generate-NetworkConnection.png)
+
+---
+
+### Screenshot 04 — Close PowerShell
+
+![Close PowerShell](../Screenshots/Session-11/04-Close-PowerShell.png)
+
+---
+
+### Screenshot 05 — Event ID 1 (Process Create)
+
+![Event ID 1 (Process Create)](../Screenshots/Session-11/05-EventID1-ProcessCreate.png)
+
+---
+
+### Screenshot 06 — Event ID 11 (File Create)
+
+![Event ID 11 (File Create)](../Screenshots/Session-11/06-EventID11-FileCreate.png)
+
+---
+
+### Screenshot 07 — Event ID 3 (Network Connection)
+
+![Event ID 3 (Network Connection)](../Screenshots/Session-11/07-EventID3-NetworkConnection.png)
+
+---
+
+### Screenshot 08 — VirusTotal IP Reputation
+
+![VirusTotal IP Reputation](../Screenshots/Session-11/08-VirusTotal-IP-Reputation.png)
+
+---
+
+### Screenshot 09 — Event ID 13 (No Registry Activity)
+
+![Event ID 13 (No Registry Activity)](../Screenshots/Session-11/09-EventID13-NoRegistryActivity.png)
 
 ---
 
