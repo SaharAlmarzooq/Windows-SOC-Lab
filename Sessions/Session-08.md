@@ -109,15 +109,39 @@ Final assessment:
 
 The Registry persistence technique resembles common attacker behavior; however, no additional malicious activity was observed.
 
+The investigation concluded that the observed activity was intentionally generated within the SOC lab for validation and learning purposes.
+
 ---
 
 # Screenshots
 
-- Screenshot 01 — TH-Lab-02 Folder
-- Screenshot 02 — Create WindowsUpdate.ps1
-- Screenshot 03 — Event ID 1
-- Screenshot 04 — Registry Persistence
-- Screenshot 05 — Event ID 13
+### Screenshot 01 — TH-Lab-02 Folder
+
+![TH-Lab-02 Folder](../Screenshots/Session-08/01-Create-THLab02.png)
+
+---
+
+### Screenshot 02 — Create WindowsUpdate.ps1
+
+![Create WindowsUpdate.ps1](../Screenshots/Session-08/02-Create-WindowsUpdatePS1.png)
+
+---
+
+### Screenshot 03 — Event ID 1 (Process Create)
+
+![Event ID 1](../Screenshots/Session-08/03-EventID1-ProcessCreate.png)
+
+---
+
+### Screenshot 04 — Registry Persistence
+
+![Registry Persistence](../Screenshots/Session-08/04-Create-Registry-Persistence.png)
+
+---
+
+### Screenshot 05 — Event ID 13 (Registry Persistence)
+
+![Event ID 13](../Screenshots/Session-08/05-EventID13-RegistryPersistence.png)
 
 ---
 
