@@ -64,7 +64,7 @@ Event Viewer
 ```
 
 Verified that Sysmon was generating telemetry correctly.
-
+Confirmed that Event ID 1 was successfully recorded in the Sysmon Operational log.
 Generated the first **Process Create (Event ID 1)** event.
 
 Collected the following fields:
@@ -78,10 +78,27 @@ Collected the following fields:
 
 # Screenshots
 
-- Screenshot 01 — Sysmon Files
-- Screenshot 02 — Sysmon Installation
-- Screenshot 03 — Sysmon Operational Log
-- Screenshot 04 — Event ID 1 (Process Create)
+### Screenshot 01 — Sysmon Files
+
+![Sysmon Files](../Screenshots/Session-02/01-Sysmon-Files.png)
+
+---
+
+### Screenshot 02 — Sysmon Installation
+
+![Sysmon Installation](../Screenshots/Session-02/02-Sysmon-Installation.png)
+
+---
+
+### Screenshot 03 — Sysmon Operational Log
+
+![Sysmon Operational Log](../Screenshots/Session-02/03-Sysmon-Operational-Log.png)
+
+---
+
+### Screenshot 04 — Event ID 1 (Process Create)
+
+![Event ID 1](../Screenshots/Session-02/04-EventID-1-Details.png)
 
 ---
 
