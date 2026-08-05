@@ -100,6 +100,8 @@ Final assessment:
 
 The destination IP was confirmed as clean through threat intelligence, and the observed activity appeared consistent with legitimate administrative usage.
 
+The investigation confirmed that the observed activity was intentionally generated within the SOC lab and did not require incident escalation.
+
 ---
 
 # Investigation Result
@@ -114,11 +116,39 @@ The PowerShell process generated outbound HTTPS traffic toward a trusted destina
 
 # Screenshots
 
-- Screenshot 01 — Launch PowerShell
-- Screenshot 02 — Generate HTTPS Connection
-- Screenshot 03 — Event ID 3
-- Screenshot 04 — Event ID 1
-- Screenshot 05 — VirusTotal IP Reputation
+### Screenshot 01 — Launch PowerShell
+
+![Launch PowerShell](../Screenshots/Session-10/01-Launch-PowerShell.png)
+
+---
+
+### Screenshot 02 — Generate PowerShell Network Connection
+
+![Generate PowerShell Network Connection](../Screenshots/Session-10/02-Generate-PowerShell-Network-Connection.png)
+
+---
+
+### Screenshot 03 — Close PowerShell
+
+![Close PowerShell](../Screenshots/Session-10/03-Close-PowerShell.png)
+
+---
+
+### Screenshot 04 — Event ID 3 (PowerShell Network Connection)
+
+![Event ID 3](../Screenshots/Session-10/04-EventID3-PowerShell-NetworkConnection.png)
+
+---
+
+### Screenshot 05 — Event ID 1 (Process Create)
+
+![Event ID 1](../Screenshots/Session-10/05-EventID1-ProcessCreate.png)
+
+---
+
+### Screenshot 06 — VirusTotal IP Reputation
+
+![VirusTotal IP Reputation](../Screenshots/Session-10/06-VirusTotal-IP-Reputation.png)
 
 ---
 
