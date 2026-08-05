@@ -133,18 +133,39 @@ The investigation confirmed that the observed activity was intentionally generat
 PowerShell execution was initiated by the logged-on user and only generated local file activity. No additional evidence suggesting compromise or persistence was observed.
 
 ---
-
 # Screenshots
+
+### Screenshot 01 — Create Reports Folder
 
 ![Create Reports Folder](../Screenshots/Session-09/01-Create-Reports-Folder.png)
 
+---
+
+### Screenshot 02 — Create QuarterlyReport.txt
+
 ![Create QuarterlyReport.txt](../Screenshots/Session-09/02-Create-QuarterlyReport-TXT.png)
+
+---
+
+### Screenshot 03 — Copy QuarterlyReport.txt
 
 ![Copy QuarterlyReport.txt](../Screenshots/Session-09/03-Copy-QuarterlyReport-TXT.png)
 
+---
+
+### Screenshot 04 — Create QuarterlyReport.ps1
+
 ![Create QuarterlyReport.ps1](../Screenshots/Session-09/04-Create-QuarterlyReport-PS1.png)
 
+---
+
+### Screenshot 05 — Event ID 1 (Process Create)
+
 ![Event ID 1](../Screenshots/Session-09/05-EventID1-ProcessCreate.png)
+
+---
+
+### Screenshot 06 — Event ID 11 (File Create)
 
 ![Event ID 11](../Screenshots/Session-09/06-EventID11-FileCreate.png)
 
