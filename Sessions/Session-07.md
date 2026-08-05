@@ -134,14 +134,27 @@ Final assessment:
 
 **Risk Level:** Medium
 
+The observed behavior was intentionally generated within the SOC lab for validation purposes and did not represent a real compromise.
+
 ---
 
 # Screenshots
 
-- Screenshot 01 — Event ID 11 (Payload.ps1)
-- Screenshot 02 — Registry Persistence
-- Screenshot 03 — Event ID 13
-- Screenshot 04 — Event ID 3 (Network Connection)
+### Screenshot 01 — Event ID 11 (Payload.ps1)
+
+![Event ID 11](../Screenshots/Session-07/01-THLab-Event11-FileCreate.png)
+
+---
+
+### Screenshot 02 — Registry Persistence
+
+![Registry Persistence](../Screenshots/Session-07/02-Registry-Command-Success.png)
+
+---
+
+### Screenshot 03 — Event ID 13 (Registry Value Set)
+
+![Event ID 13](../Screenshots/Session-07/03-EventID13-RegistryValueSet.png)
 
 ---
 
