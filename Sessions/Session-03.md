@@ -47,6 +47,8 @@ Expected a new Event ID 3.
 
 No event appeared.
 
+This behavior indicated that the monitoring configuration required further investigation.
+
 ---
 
 ## Configuration Review
@@ -61,9 +63,27 @@ Confirmed that PowerShell network connections were not included in the active mo
 
 # Screenshots
 
-- Screenshot 01 — Event ID 3 (OneDrive)
-- Screenshot 02 — PowerShell Network Test
-- Screenshot 03 — NetworkConnect Configuration Rules
+### Screenshot 01 — Event ID 3 Events
+
+![Event ID 3 Events](../Screenshots/Session-03/01-EventID-3-Events.png)
+
+---
+
+### Screenshot 02 — Event ID 3 Details
+
+![Event ID 3 Details](../Screenshots/Session-03/02-EventID-3-Details.png)
+
+---
+
+### Screenshot 03 — PowerShell Network Test
+
+![PowerShell Network Test](../Screenshots/Session-03/03-PowerShell-Network-Test.png)
+
+---
+
+### Screenshot 04 — NetworkConnect Configuration Rules
+
+![NetworkConnect Configuration](../Screenshots/Session-03/04-SysmonConfig-NetworkConnect.png)
 
 ---
 
