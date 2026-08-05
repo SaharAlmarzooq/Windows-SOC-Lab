@@ -124,7 +124,7 @@ The PowerShell process generated outbound HTTPS traffic toward a trusted destina
 
 ### Screenshot 02 — Generate PowerShell Network Connection
 
-![Generate PowerShell Network Connection](../Screenshots/Session-10/02-Generate-PowerShell-Network-Connection.png)
+![Generate PowerShell Network Connection](../Screenshots/Session-10/02-Generate-PowerShell-NetworkConnection.png)
 
 ---
 
@@ -136,13 +136,13 @@ The PowerShell process generated outbound HTTPS traffic toward a trusted destina
 
 ### Screenshot 04 — Event ID 3 (PowerShell Network Connection)
 
-![Event ID 3](../Screenshots/Session-10/04-EventID3-PowerShell-NetworkConnection.png)
+![Event ID 3 — PowerShell Network Connection](../Screenshots/Session-10/04-EventID3-PowerShell-NetworkConnection.png)
 
 ---
 
 ### Screenshot 05 — Event ID 1 (Process Create)
 
-![Event ID 1](../Screenshots/Session-10/05-EventID1-ProcessCreate.png)
+![Event ID 1 — Process Create](../Screenshots/Session-10/05-EventID1-ProcessCreate.png)
 
 ---
 
