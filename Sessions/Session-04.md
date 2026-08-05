@@ -57,6 +57,8 @@ Generated outbound network activity using PowerShell.
 
 Confirmed that Sysmon successfully generated **Event ID 3**.
 
+Confirmed that the newly added NetworkConnect rule was functioning as expected.
+
 Collected the following evidence:
 
 - Image
@@ -70,10 +72,27 @@ Collected the following evidence:
 
 # Screenshots
 
-- Screenshot 01 — Original NetworkConnect Rules
-- Screenshot 02 — Modified PowerShell Rule
-- Screenshot 03 — Reload Sysmon Configuration
-- Screenshot 04 — Event ID 3 (PowerShell Network Connection)
+### Screenshot 01 — Original NetworkConnect Rules
+
+![Original NetworkConnect Rules](../Screenshots/Session-04/01-Original-NetworkConnect-Rule.png)
+
+---
+
+### Screenshot 02 — Modified PowerShell Rule
+
+![Modified PowerShell Rule](../Screenshots/Session-04/02-Add-PowerShell-Network-Rule.png)
+
+---
+
+### Screenshot 03 — Reload Sysmon Configuration
+
+![Reload Sysmon Configuration](../Screenshots/Session-04/03-Reload-Sysmon-Configuration.png)
+
+---
+
+### Screenshot 04 — Event ID 3 (PowerShell Network Connection)
+
+![PowerShell Network Event](../Screenshots/Session-04/04-PowerShell-Network-Event.png)
 
 ---
 
