@@ -136,37 +136,15 @@ PowerShell execution was initiated by the logged-on user and only generated loca
 
 # Screenshots
 
-### Screenshot 01 — Create Reports Folder
-
 ![Create Reports Folder](../Screenshots/Session-09/01-Create-Reports-Folder.png)
 
----
+![Create QuarterlyReport.txt](../Screenshots/Session-09/02-Create-QuarterlyReport-TXT.png)
 
-### Screenshot 02 — Create QuarterlyReport.txt
+![Copy QuarterlyReport.txt](../Screenshots/Session-09/03-Copy-QuarterlyReport-TXT.png)
 
-![Create QuarterlyReport.txt](../Screenshots/Session-09/02-Create-QuarterlyReport.png)
-
----
-
-### Screenshot 03 — Copy QuarterlyReport.txt
-
-![Copy QuarterlyReport.txt](../Screenshots/Session-09/03-Copy-QuarterlyReport.png)
-
----
-
-### Screenshot 04 — Create QuarterlyReport.ps1
-
-![Create QuarterlyReport.ps1](../Screenshots/Session-09/04-Create-QuarterlyReportPS1.png)
-
----
-
-### Screenshot 05 — Event ID 1 (Process Create)
+![Create QuarterlyReport.ps1](../Screenshots/Session-09/04-Create-QuarterlyReport-PS1.png)
 
 ![Event ID 1](../Screenshots/Session-09/05-EventID1-ProcessCreate.png)
-
----
-
-### Screenshot 06 — Event ID 11 (File Create)
 
 ![Event ID 11](../Screenshots/Session-09/06-EventID11-FileCreate.png)
 
