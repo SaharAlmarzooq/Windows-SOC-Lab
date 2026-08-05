@@ -59,6 +59,8 @@ Collected the following evidence:
 
 Verified that PowerShell successfully modified the monitored Registry location.
 
+Confirmed that the Registry modification matched the monitored Sysmon RegistryEvent rule.
+
 ---
 
 ## Documentation
@@ -71,9 +73,21 @@ Recorded all evidence collected during the investigation.
 
 # Screenshots
 
-- Screenshot 01 — RegistryEvent Configuration
-- Screenshot 02 — Create Registry Value
-- Screenshot 03 — Event ID 13 (Registry Value Set)
+### Screenshot 01 — RegistryEvent Configuration
+
+![RegistryEvent Configuration](../Screenshots/Session-06/01-EventID13-Before-RegistryCommand.png)
+
+---
+
+### Screenshot 02 — Create Registry Value
+
+![Registry Command Success](../Screenshots/Session-06/02-Registry-Command-Success.png)
+
+---
+
+### Screenshot 03 — Event ID 13 (Registry Value Set)
+
+![Event ID 13 Registry Value Set](../Screenshots/Session-06/03-EventID13-RegistryValueSet.png)
 
 ---
 
