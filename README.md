@@ -14,11 +14,13 @@
 
 ## 📖 Overview
 
-**Windows SOC Lab** is a hands-on cybersecurity project that documents the complete process of building a Windows-based Security Operations Center (SOC) lab from scratch.
+Windows SOC Lab is a hands-on cybersecurity project that documents the complete process of building a Windows-based Security Operations Center (SOC) lab from scratch.
 
 The project focuses on understanding Windows endpoint telemetry, investigating security events using Sysmon, and developing practical SOC investigation skills through realistic analyst-driven scenarios.
 
 Instead of simply learning security tools, this lab emphasizes understanding attacker behavior, collecting evidence, correlating multiple events, and making investigation decisions based on observed telemetry.
+
+Throughout the project, every investigation, configuration change, and recovery activity was fully documented to reflect the workflow of a SOC analyst in a real-world environment.
 
 ---
 
@@ -67,7 +69,12 @@ Instead of simply learning security tools, this lab emphasizes understanding att
 - Evidence Collection
 - Threat Intelligence Validation
 - MITRE ATT&CK Mapping
-
+-Virtual Machine Recovery
+-VirtualBox Administration
+-Snapshot Management
+-Root Cause Analysis
+-Disaster Recovery
+-Infrastructure Troubleshooting
 ---
 
 ## 📂 Repository Structure
@@ -109,6 +116,7 @@ Windows-SOC-Lab
 | Session 09 | PowerShell File Activity Investigation (SOC-0001) | ✅ |
 | Session 10 | PowerShell Network Activity Investigation (SOC-0002) | ✅ |
 | Session 11 | Multi-Event PowerShell Investigation (SOC-0003) | ✅ |
+| Session 12 | Virtual Machine Recovery & Migration | ✅ |
 
 ---
 
@@ -124,6 +132,7 @@ Windows-SOC-Lab
 
 ## 🚀 Future Roadmap
 
+Phase 1 of the Windows SOC Lab has been successfully completed.
 The next phase of this lab will focus on more advanced Windows detection and incident response scenarios, including:
 
 - Windows Defender investigations
