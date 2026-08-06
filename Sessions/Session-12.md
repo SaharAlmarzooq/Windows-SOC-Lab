@@ -32,59 +32,43 @@ As a result:
 
 ### Screenshot 01 — VirtualBox Critical Error
 
-![VirtualBox Critical Error](../Screenshots/Session-12/01-VirtualBox-Critical-Error.png)
+![VirtualBox Critical Error](../Screenshots/session-12/01-VirtualBox-Critical-Error.png)
 
 ---
-
-# Investigation
-
-The following verification steps were performed:
-
-- Verified the VirtualBox machine configuration.
-- Verified the VM storage configuration.
-- Confirmed that the VDI file remained intact.
-- Verified that all VirtualBox snapshots were still available.
-- Located the correct VM configuration files.
-- Confirmed that insufficient host storage was the root cause of the failure.
 
 ### Screenshot 02 — Snapshot Recovery
 
-![Snapshot Recovery](../Screenshots/Session-12/02-Snapshot-Recovery.png)
-
-### Screenshot 03 — VM Storage Configuration
-
-![VM Storage Configuration](../Screenshots/Session-12/03-VM-Storage-Configuration.png)
-
-### Screenshot 04 — VM Files Verified
-
-![VM Files Verified](../Screenshots/Session-12/04-VM-Files-Verified.png)
+![Snapshot Recovery](../Screenshots/session-12/02-Snapshot-Recovery.png)
 
 ---
 
-# Recovery Actions
+### Screenshot 03 — VM Storage Configuration
 
-The following recovery actions were successfully completed:
+![VM Storage Configuration](../Screenshots/session-12/03-VM-Storage-Configuration.png)
 
-- Restored the latest healthy snapshot (**Session-11-Completed**).
-- Successfully booted Windows.
-- Verified Sysmon service functionality.
-- Verified Windows Event Viewer functionality.
-- Confirmed Windows SOC Lab integrity.
+---
 
-Migrated the complete virtual machine from **C:** to **E:** using VirtualBox's official **Move** feature.
+### Screenshot 04 — VM Files Verified
+
+![VM Files Verified](../Screenshots/session-12/04-VM-Files-Verified.png)
+
+---
 
 ### Screenshot 05 — Select Migration Destination
 
-![Select Migration Destination](../Screenshots/Session-12/05-Select-Migration-Destination.png)
+![Select Migration Destination](../Screenshots/session-12/05-Select-Migration-Destination.png)
+
+---
 
 ### Screenshot 06 — VM Migrated to Drive E
 
-![VM Migrated to Drive E](../Screenshots/Session-12/06-VM-Migrated-To-Drive-E.png)
+![VM Migrated to Drive E](../Screenshots/session-12/06-VM-Migrated-To-Drive-E.png)
+
+---
 
 ### Screenshot 07 — VM Migration Completed
 
-![VM Migration Completed](../Screenshots/Session-12/07-VM-Migration-Completed.png)
-
+![VM Migration Completed](../Screenshots/session-12/07-VM-Migration-Completed.png)
 ---
 
 # Validation
